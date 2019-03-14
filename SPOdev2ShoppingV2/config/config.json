@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "shopping-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/shoppingWebpart/ShoppingWebpartWebPart.js",
+          "manifest": "./src/webparts/shoppingWebpart/ShoppingWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ShoppingWebpartWebPartStrings": "lib/webparts/shoppingWebpart/loc/{locale}.js"
+  }
+}
